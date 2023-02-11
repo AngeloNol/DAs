@@ -1,0 +1,33 @@
+!SESSION 2023-02-08 13:29:18.182 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-08 13:29:49.645
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-08 13:29:49.790
+!MESSAGE Log4j initialized with config file C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\STM32L476 Nucleo Basic Labs\BL04_STM32L476RG_Timer\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-08 13:29:54.353
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-02-08 13:32:20.624
+!MESSAGE Indexed 'Nucleo_L476RG_Timer' (25 sources, 84 headers) in 7.97 sec: 6,219 declarations; 39,179 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0044%)
+!SESSION 2023-02-10 16:13:38.431 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-10 16:13:52.493
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-10 16:13:52.622
+!MESSAGE Log4j initialized with config file C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\STM32L476 Nucleo Basic Labs\BL04_STM32L476RG_Timer\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-10 16:14:01.998
+!MESSAGE Started RMI Server, listening on port 41337
