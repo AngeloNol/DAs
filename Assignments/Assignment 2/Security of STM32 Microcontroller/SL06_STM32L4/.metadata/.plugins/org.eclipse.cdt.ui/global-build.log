@@ -1,0 +1,28 @@
+20:29:31 **** Incremental Build of configuration Debug for project SL06 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SL06.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\Nucelo Sercuity\SL06_STM32L4\SL06\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SL06.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SL06.elf
+ 
+arm-none-eabi-size   SL06.elf 
+arm-none-eabi-objdump -h -S  SL06.elf  > "SL06.list"
+   text	   data	    bss	    dec	    hex	filename
+  13912	     20	   1740	  15672	   3d38	SL06.elf
+Finished building: default.size.stdout
+ 
+Finished building: SL06.list
+ 
+20:29:39 **** Incremental Build of configuration Debug for project SL06 ****
+make -j8 all 
+arm-none-eabi-size   SL06.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13912	     20	   1740	  15672	   3d38	SL06.elf
+Finished building: default.size.stdout
+ 
+20:33:57 **** Incremental Build of configuration Debug for project SL06 ****
+make -j8 all 
+arm-none-eabi-size   SL06.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13912	     20	   1740	  15672	   3d38	SL06.elf
+Finished building: default.size.stdout
+ 

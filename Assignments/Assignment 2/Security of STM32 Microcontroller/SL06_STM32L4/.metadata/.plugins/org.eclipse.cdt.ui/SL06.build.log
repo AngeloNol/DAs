@@ -1,0 +1,10 @@
+20:33:57 **** Incremental Build of configuration Debug for project SL06 ****
+make -j8 all 
+arm-none-eabi-size   SL06.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13912	     20	   1740	  15672	   3d38	SL06.elf
+Finished building: default.size.stdout
+ 
+
+20:33:57 Build Finished. 0 errors, 0 warnings. (took 391ms)
+
