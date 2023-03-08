@@ -1,0 +1,10 @@
+15:36:41 **** Incremental Build of configuration Debug for project SL02_WriteProctection ****
+make -j8 all 
+arm-none-eabi-size   SL02_WriteProctection.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12172	     20	   1700	  13892	   3644	SL02_WriteProctection.elf
+Finished building: default.size.stdout
+ 
+
+15:36:41 Build Finished. 0 errors, 0 warnings. (took 475ms)
+

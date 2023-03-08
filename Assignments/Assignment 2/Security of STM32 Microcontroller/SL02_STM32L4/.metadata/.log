@@ -1,0 +1,103 @@
+!SESSION 2023-02-28 15:22:54.641 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\Nucelo Sercuity\SL02_STM32L4
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-28 15:23:04.053
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-28 15:23:04.235
+!MESSAGE Log4j initialized with config file C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\Nucelo Sercuity\SL02_STM32L4\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-28 15:23:09.093
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-02-28 15:25:38.643
+!MESSAGE Indexed 'SL02_WriteProctection' (25 sources, 84 headers) in 7.89 sec: 6,219 declarations; 39,179 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-02-28 15:30:04.143
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+load "C:\\Users\\Nolas\\OneDrive\\Desktop\\UNLV\\spring 2023\\CPE 477\\notgithub\\Nucelo Sercuity\\SL02_STM32L4\\SL02_WriteProctection\\Debug\\SL02_WriteProctection.elf" 
+
+Error message from debugger back end:
+Error finishing flash operation
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+load "C:\\Users\\Nolas\\OneDrive\\Desktop\\UNLV\\spring 2023\\CPE 477\\notgithub\\Nucelo Sercuity\\SL02_STM32L4\\SL02_WriteProctection\\Debug\\SL02_WriteProctection.elf" 
+
+Error message from debugger back end:
+Error finishing flash operation
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Failed to execute MI command:
+load "C:\\Users\\Nolas\\OneDrive\\Desktop\\UNLV\\spring 2023\\CPE 477\\notgithub\\Nucelo Sercuity\\SL02_STM32L4\\SL02_WriteProctection\\Debug\\SL02_WriteProctection.elf" 
+
+Error message from debugger back end:
+Error finishing flash operation
+java.lang.Exception: Error finishing flash operation
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10004 2023-02-28 15:30:04.145
+!MESSAGE Failed to execute MI command:
+load "C:\\Users\\Nolas\\OneDrive\\Desktop\\UNLV\\spring 2023\\CPE 477\\notgithub\\Nucelo Sercuity\\SL02_STM32L4\\SL02_WriteProctection\\Debug\\SL02_WriteProctection.elf" 
+
+Error message from debugger back end:
+Error finishing flash operation
+!SUBENTRY 2 org.eclipse.cdt.dsf.gdb 4 10004 2023-02-28 15:30:04.145
+!MESSAGE Failed to execute MI command:
+load "C:\\Users\\Nolas\\OneDrive\\Desktop\\UNLV\\spring 2023\\CPE 477\\notgithub\\Nucelo Sercuity\\SL02_STM32L4\\SL02_WriteProctection\\Debug\\SL02_WriteProctection.elf" 
+
+Error message from debugger back end:
+Error finishing flash operation
+!STACK 0
+java.lang.Exception: Error finishing flash operation
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.jface 2 0 2023-02-28 15:36:00.764
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-28 15:36:00.764
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Searches for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e7075d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.command.gotoaddress,Go to Address,
+		Go to Address,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memory.abstractasynctablerendering,,,system)
+!SESSION 2023-02-28 15:41:43.162 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-28 15:42:03.279
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-28 15:42:03.419
+!MESSAGE Log4j initialized with config file C:\Users\Nolas\OneDrive\Desktop\UNLV\spring 2023\CPE 477\notgithub\Nucelo Sercuity\SL02_STM32L4\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-28 15:42:13.425
+!MESSAGE Started RMI Server, listening on port 41337

@@ -1,0 +1,10 @@
+16:23:34 **** Incremental Build of configuration Debug for project fw_to_protect ****
+make -j8 all 
+arm-none-eabi-size   fw_to_protect.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14088	     20	   1700	  15808	   3dc0	fw_to_protect.elf
+Finished building: default.size.stdout
+ 
+
+16:23:34 Build Finished. 0 errors, 0 warnings. (took 378ms)
+
