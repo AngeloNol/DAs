@@ -1,0 +1,4 @@
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Src/main.c:64:5:main	8	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Src/main.c:109:6:SystemClock_Config	96	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Src/main.c:159:13:MX_GPIO_Init	48	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Src/main.c:207:6:Error_Handler	4	static,ignoring_inline_asm

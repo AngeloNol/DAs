@@ -1,0 +1,16 @@
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:197:9:IKS01A3_MOTION_SENSOR_Init	64	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:962:9:IKS01A3_MOTION_SENSOR_DeInit	24	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:988:9:IKS01A3_MOTION_SENSOR_GetCapabilities	24	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1014:9:IKS01A3_MOTION_SENSOR_ReadID	24	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1043:9:IKS01A3_MOTION_SENSOR_Enable	24	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1082:9:IKS01A3_MOTION_SENSOR_Disable	24	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1122:9:IKS01A3_MOTION_SENSOR_GetAxes	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1162:9:IKS01A3_MOTION_SENSOR_GetAxesRaw	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1202:9:IKS01A3_MOTION_SENSOR_GetSensitivity	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1243:9:IKS01A3_MOTION_SENSOR_GetOutputDataRate	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1283:9:IKS01A3_MOTION_SENSOR_GetFullScale	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1324:9:IKS01A3_MOTION_SENSOR_SetOutputDataRate	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1364:9:IKS01A3_MOTION_SENSOR_SetFullScale	32	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1408:16:LSM6DSO_0_Probe	88	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1491:16:LIS2DW12_0_Probe	88	static
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring 2023/CPE 477/notgithub/Assignment 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.c:1565:16:LIS2MDL_0_Probe	88	static

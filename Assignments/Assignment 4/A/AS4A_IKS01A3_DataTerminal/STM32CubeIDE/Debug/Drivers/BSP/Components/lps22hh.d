@@ -1,0 +1,6 @@
+Drivers/BSP/Components/lps22hh.o: \
+ C:/Users/Nolas/OneDrive/Desktop/UNLV/spring\ 2023/CPE\ 477/notgithub/Assignment\ 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/Components/lps22hh/lps22hh.c \
+ C:/Users/Nolas/OneDrive/Desktop/UNLV/spring\ 2023/CPE\ 477/notgithub/Assignment\ 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/Components/lps22hh/lps22hh.h \
+ C:/Users/Nolas/OneDrive/Desktop/UNLV/spring\ 2023/CPE\ 477/notgithub/Assignment\ 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/Components/lps22hh/lps22hh_reg.h
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring\ 2023/CPE\ 477/notgithub/Assignment\ 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/Components/lps22hh/lps22hh.h:
+C:/Users/Nolas/OneDrive/Desktop/UNLV/spring\ 2023/CPE\ 477/notgithub/Assignment\ 4/A/AS4A_IKS01A3_DataTerminal/Drivers/BSP/Components/lps22hh/lps22hh_reg.h:
