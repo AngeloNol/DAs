@@ -12,43 +12,49 @@ Software:
   
 Hardware:
 * STM32L476 Nucleo
-*  Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense
 
 
 # Design Assignments
-* DA1 - Do blinky tutorial from TI Code Composer Studio on the TM4C123G LaunchPad 
+* DA1 - Implemented some basic labs on the STM32L476 Nucleo board
+    1. Blinky
+       * Making the LED on Nucleo board blink
+    2. Button Loop
+       * Make the LED on Nucleo board blink everytime a user hit the button
+    3. Button IRQ
+       * Use a interrupt to toggle LED on Nucleo board 
+    4. Timer
+       * Use HAL function to create timer interrupt to blink LED
+    5. UART
+       * Use HAL function to take input and send message to the terminal
+    6. ADC
+       * Use HAL function to collect ADC data from a selected analog channel
 
-* DA2 - TM4C123G LaunchPad
-      * Task 01: a) Continuously display the X and Y axis values of the joystick on the terminal using a
-    timer interrupt every 1 sec, b) Using PF1 button interrupt toggle RGB LEDs in a sequence (all
-    LEDs are off - Button press, R-on, Button press, G-on, Button press, B-on, Button press, all LEDs
-    off. (PS: your program will have two interrupts)
-    * Task 02: Continue with Task 01, implement the ADC-memory transfer and memory-UART
-    transfer using uDMA. 
-  
- * DA3 - TTM4C123G LaunchPad
-       * Task 01: Interface the MPU6050 IMU Sensor (I2C). Determine the orientation of the object in
-    Euler angles (yaw, pitch, roll). Perform all computations using IQMath Structures and Functions.
-    Display the results in the terminal or as a waveform.
+* DA2 - Security of STM32 Microcontroller Labs
+    1. Unique ID
+       * Tutorial will introduce the STM32 Unique ID security feature
+    2. Write Protection
+       * Tutorial will demonstrate the memory write protection mechanism (WRP)
+    3. PCROP
+       * Tutorial will introduce the STM32 PCROP feature. Specifically, we will hide a call           to led blinking API in PCROP region
+    4. ReadOut Protection
+       *  Tutorial will introduce the STM32 Readout Protection feature
+    5. RDP without POR
+       * Tutorial will demonstrate how to change RDP level without doing a Power on                   Reset(POR)
+    6. Tamper Protection
+       *  Tutorial will demonstrate the tamper protection feature
+    7. Crypto Library
+       * Tutorial will introduce the STM32 Crypto Library
    
- * DA4 - TTM4C123G LaunchPad
-           * Goal of this assignment is to create four tasks, 1) ADC task, 2) UART display task, 3) Switch
-    Read task, and 4) Heartbeat function (PF3). The heartbeat function is performed throughout the
-    execution of the program. Each task will be executed in order specified above every 15 ms. Connect a potentiometer/joystick (one axis) to the ADC pin. Use ADC0 CH4. Also initialize a PWM
-    signal to a LED (PF1). Initial value of the PWM duty cycle is set to 0. Create a timer 0/1/2 HWI
-    for every 1 ms, at 5th instance of HWI the task ADC is performed, at 10th instance of HWI the
-    task UART displays the current value ADC in the terminal, and at 15th instance of HWI the task
-    Switch Read is performed to check the status of the SW1/SW2 to update the current value of duty
-    cycle based on the ADC value. Note that the duty cycle of the PWM does not change unless the
-    switch is pressed, even when the ADC value changes. However, the UART should display the
-    dynamic value of the ADC.
+ * DA6 - Arduino Nano 33 BLE Sense did the gesture model tutorial.
+
 
    
 
 # Student Info
 * Student Name: Angelo Nolasco
 * Student Email: Nolasco@unlv.nevada.edu
-* youtube link DAs: https://www.youtube.com/playlist?list=PLQKv7ukC_ZvYcFStIp1kRduyU2kAJF1MJ
+* youtube link DAs: https://www.youtube.com/playlist?list=PLQKv7ukC_Zvbnd4iN56bMAoxmVSLoa5IM
 
 
 
